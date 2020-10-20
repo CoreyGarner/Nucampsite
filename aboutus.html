@@ -6,16 +6,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap CSS -->
+  <!-- build:css css/main.css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-  <!-- Additional CSS must be placed after Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
   <link rel="stylesheet" href="css/styles.css" />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
   <title>NuCamp: A Better Way To Camp</title>
 </head>
 
@@ -121,61 +119,68 @@
 
     <div class="row row-content">
       <div class="col-12">
-          <h3>Community Partners</h3>
+        <h3>Community Partners</h3>
 
-          <div id="accordion">
-              <div role="tab" class="card-header">
-                  <h4>
-                      <a data-toggle="collapse" data-target="#bootstrap">
-                          Bootstrap Outfitters <small>Outdoor Gear Specialists</small>
-                      </a>
-                  </h4>
-                  <div class="collapse show" id="bootstrap" data-parent="#accordion">
-                      <div class="card-body">
-                          <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                      </div>
-                  </div>
+        <div id="accordion">
+          <div role="tab" class="card-header">
+            <h4>
+              <a data-toggle="collapse" data-target="#bootstrap">
+                Bootstrap Outfitters <small>Outdoor Gear Specialists</small>
+              </a>
+            </h4>
+            <div class="collapse show" id="bootstrap" data-parent="#accordion">
+              <div class="card-body">
+                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you
+                  can't beat.</p>
               </div>
-              <div class="card">
-                  <div role="tab" class="card-header">
-                      <h4>
-                          <a class="collapsed" data-toggle="collapse" data-target="#git">Git Out Expeditions <small>Group Adventure Expeditions</small></a>
-                      </h4>
-                      <div class="collapse" id="git" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                      </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-              <div role="tab" class="card-header">
-                      <h4>
-                          <a class="collapsed" data-toggle="collapse" data-target="#mongo">Mongo Fly Shop <small>Your Neighborhood</small></a>
-                      </h4>
-                      <div class="collapse" id="mongo" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div role="tab" class="card-header">
-                      <h4>
-                          <a class="collapsed" data-toggle="collapse" data-target="#node">Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></a>
-                      </h4>
-                      <div class="collapse" id="node" data-parent="#accordion">
-                          <div class="card-body">
-                              <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div> 
+            </div>
           </div>
-          
+          <div class="card">
+            <div role="tab" class="card-header">
+              <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#git">Git Out Expeditions <small>Group
+                    Adventure Expeditions</small></a>
+              </h4>
+              <div class="collapse" id="git" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other
+                    adventurers!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div role="tab" class="card-header">
+              <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#mongo">Mongo Fly Shop <small>Your
+                    Neighborhood</small></a>
+              </h4>
+              <div class="collapse" id="mongo" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by
+                    Mongo Fly Shop.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div role="tab" class="card-header">
+              <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#node">Node Outdoor Apparel <small>Outdoor
+                    Clothes & Shoes</small></a>
+              </h4>
+              <div class="collapse" id="node" data-parent="#accordion">
+                <div class="card-body">
+                  <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node
+                    will be sure to get you covered.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-  </div>
+    </div>
 
     <div class="row row-content">
       <div class="col-sm-9">
@@ -245,16 +250,18 @@
     </div>
   </footer>
 
-  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+ <!-- build:js js/main.js -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+ integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+ integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+ crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+ crossorigin="anonymous"></script>
+<script src="js\scripts.js"></script>
+<!-- endbuild -->
 </body>
 
 </html>
